@@ -132,25 +132,38 @@ JG_CO_099_A
 JG_CO_150_B
 ```
 
-### 3. Configure File Paths
+### 3. Generate Sample Location Map
 
-Edit `scripts/1_callTEpipe.pl` to set your raw data location:
+Since samples are spread across multiple directories, generate a map file that locates each sample:
 
-```perl
-# Line 23: Update to your sequence directory
-my @files = grep { !/\.html$/ } </path/to/your/sequences/*$tarray[0]*R[1-2]*>;
+```bash
+# Run as SLURM job (recommended for large sample lists)
+sbatch scripts/generate_sample_map.sh samples/samples.txt samples/sample_locations.txt
+
+# Or run directly
+chmod +x scripts/generate_sample_map.sh
+./scripts/generate_sample_map.sh samples/samples.txt samples/sample_locations.txt
 ```
+
+This creates a tab-delimited file mapping each sample to its directory:
+```
+/grps2/mrmckain/Sequence_Vault/NovaSeq.022122	JG_CO_011_C
+/scratch/nphofford/jumpingGenesPipe/data/raw/NovaSeq.042622	JG_CO_099_A
+/grps2/mrmckain/Sequence_Vault/NovaSeq.110321	JG_CO_150_B
+```
+
+**Note**: The script searches the vault directories, but automatically remaps NovaSeq.042622 samples to the scratch location (where converted .gz files are stored).
 
 ### 4. Run Pipeline
 
-Submit jobs for all samples:
+Submit jobs for all samples using the location map:
 
 ```bash
 # Run full pipeline (all steps)
-perl scripts/1_callTEpipe.pl samples/samples.txt scripts/2_TEpipe_fastp.sh
+perl scripts/1_callTEpipe_mapped.pl samples/sample_locations.txt scripts/2_TEpipe_fastp.sh
 
 # Or start from a specific step (e.g., Step 3)
-perl scripts/1_callTEpipe.pl samples/samples.txt scripts/2_TEpipe_fastp.sh 3
+perl scripts/1_callTEpipe_mapped.pl samples/sample_locations.txt scripts/2_TEpipe_fastp.sh 3
 ```
 
 **Available steps:**
@@ -160,6 +173,12 @@ perl scripts/1_callTEpipe.pl samples/samples.txt scripts/2_TEpipe_fastp.sh 3
 - Step 4: Transposome Analysis
 
 This will submit one SLURM job per sample.
+
+**Alternative**: If all your samples are in one directory, use the original script:
+```bash
+perl scripts/1_callTEpipe.pl samples/samples.txt scripts/2_TEpipe_fastp.sh
+```
+(You'll need to update the search path in line 23 of that script)
 
 ### 5. Monitor Progress
 
@@ -178,11 +197,16 @@ tail -f logs/slurm-<jobid>.out
 If a job fails at a specific step, you can restart from that step without reprocessing earlier steps:
 
 ```bash
-# Create a sample list with only the failed samples
+# Option 1: Create a location map for just the failed samples
 echo "JG_CO_011_C" > samples/failed_samples.txt
+./scripts/generate_sample_map.sh samples/failed_samples.txt samples/failed_locations.txt
 
 # Restart from Step 3 (skipping Steps 1-2)
-perl scripts/1_callTEpipe.pl samples/failed_samples.txt scripts/2_TEpipe_fastp.sh 3
+perl scripts/1_callTEpipe_mapped.pl samples/failed_locations.txt scripts/2_TEpipe_fastp.sh 3
+
+# Option 2: Or manually edit sample_locations.txt to include only failed samples
+# Then run with the starting step
+perl scripts/1_callTEpipe_mapped.pl samples/sample_locations_failed.txt scripts/2_TEpipe_fastp.sh 3
 ```
 
 The pipeline will skip completed steps and use existing intermediate files.
