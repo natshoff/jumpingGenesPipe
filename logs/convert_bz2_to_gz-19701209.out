@@ -26,3 +26,7 @@ Found 210 .bz2 files to convert
 [10/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_078_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_078_E_I1198_L1_R1.fastq.gz
   ✓ Success
 [11/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_E_I1198_L1_R2.fastq.gz
+  ✓ Success
+[12/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_I_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_I_I1198_L1_R2.fastq.gz
+  ✓ Success
+[13/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_E_I1198_L1_R2.fastq.gz
