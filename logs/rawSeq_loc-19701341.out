@@ -1,0 +1,3 @@
+Usage: /cm/local/apps/slurm/var/spool/job19701341/slurm_script SAMPLE_LIST OUTPUT_FILE
+
+Example: /cm/local/apps/slurm/var/spool/job19701341/slurm_script samples/samples.txt samples/sample_locations.txt

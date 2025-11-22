@@ -1,0 +1,327 @@
+Generating sample location map...
+Input: samples/samples2.txt
+Output: samples/samples_locations.txt
+
+✓ JG_CO_246_C2 -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_246_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_246_A1 -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_245_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_245_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_245_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_245_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_244_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_244_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_244_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_244_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_244_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_243_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_243_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_243_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_243_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_243_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_243_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_242_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_242_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_242_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_242_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_241_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_241_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_241_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_241_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_241_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_239_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_239_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_239_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_235_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_235_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_235_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_235_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_235_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_232_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_232_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_232_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_232_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_230_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_230_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_230_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_230_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_230_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_229_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_229_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_229_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_229_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_225_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_225_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_225_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_225_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_225_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_224_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_224_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_224_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_224_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_224_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_223_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_223_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_223_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_223_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_220_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_220_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_220_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_218_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_218_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_218_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_218_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_218_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_215_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_215_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_215_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_215_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_215_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_207_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_207_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_207_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_207_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_207_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_206_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_206_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_206_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_206_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_206_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_204_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_204_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_204_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_204_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_199_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_199_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_199_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_199_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_199_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_197_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_194_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_194_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_194_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_194_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_194_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_194_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_188_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_188_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_188_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_150_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_150_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_150_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_150_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_150_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_132_J -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_132_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_132_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_132_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_132_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_132_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_132_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_132_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_131_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_131_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_131_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_131_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_131_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_128_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_128_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_128_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_128_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_128_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_126_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_126_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_126_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_125_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_125_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_125_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_125_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_124_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_124_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_124_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_124_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_124_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_122_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_122_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_122_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_122_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_122_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_120_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_120_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_120_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_120_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_120_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_118_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_118_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_118_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_118_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_113_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_113_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_113_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_113_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_113_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_111_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_111_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_111_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_111_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_110_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_110_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_110_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_110_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_110_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_109_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_109_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_109_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_109_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_109_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_108_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_108_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_108_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_108_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_108_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_107_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_107_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_107_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_107_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_107_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_106_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_106_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_106_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_106_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_104_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_104_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_104_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_104_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_104_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_102_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_102_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_102_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_102_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_099_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_099_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_099_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_099_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_098_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_098_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_098_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_098_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_098_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_095_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_095_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_095_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_095_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_095_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_093_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_093_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_093_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_093_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_093_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_092_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_092_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_092_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_092_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_092_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_092_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_089_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_089_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_089_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_085_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_081_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_081_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_081_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_081_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_080_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_080_D1 -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_080_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_080_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_080_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_078_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_077_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_076_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_069_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_069_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_069_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_069_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_069_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_L -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_K -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_J -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_064_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_L -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_K -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_J -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_059_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_K -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_J -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_055_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_K -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_J -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_054_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_049_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_049_B -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_049_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_045_L -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_K -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_J -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_I -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_H -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_G -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_D -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_045_A -> /grps2/mrmckain/Sequence_Vault/NovaSeq.110321
+✓ JG_CO_028_F -> /grps2/mrmckain/Sequence_Vault/NovaSeq.042622 (mapped to scratch)
+✓ JG_CO_028_E -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_028_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_011_V -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_011_P -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_011_M -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_011_L -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+✓ JG_CO_011_C -> /grps2/mrmckain/Sequence_Vault/NovaSeq.022122
+
+=== Summary ===
+Found: 317 samples
+Not found: 0 samples
+
+Sample location map written to: samples/samples_locations.txt

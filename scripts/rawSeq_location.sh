@@ -1,17 +1,18 @@
 #!/bin/bash
 #SBATCH -J sample_map
 #SBATCH -n 1
-#SBATCH -p main
+#SBATCH -p ultrahigh
+#SBATCH --qos mrmckain
 #SBATCH --mem=4G
-#SBATCH -t 1:00:00
-#SBATCH -o logs/generate_sample_map-%j.out
-#SBATCH -e logs/generate_sample_map-%j.err
+#SBATCH -t 5:00:00
+#SBATCH -o logs/rawSeq_loc-%j.out
+#SBATCH -e logs/rawSeq_loc-%j.err
 
 # Script to generate a sample location map
 # Creates a two-column file: directory_path | sample_id
 # 
-# Usage: sbatch generate_sample_map.sh samples/samples.txt samples/sample_locations.txt
-# Or run directly: ./generate_sample_map.sh samples/samples.txt samples/sample_locations.txt
+# Usage: sbatch rawSeq_loc.sh samples/samples.txt samples/sample_locations.txt
+# Or run directly: ./rawSeq_loc.sh samples/samples.txt samples/sample_locations.txt
 
 if [ $# -lt 2 ]; then
     echo "Usage: $0 SAMPLE_LIST OUTPUT_FILE"

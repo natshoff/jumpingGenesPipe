@@ -1,0 +1,12 @@
+=== Starting .bz2 to .gz conversion ===
+Source: /grps2/mrmckain/Sequence_Vault/NovaSeq.042622
+Destination: /scratch/nphofford/jumpingGenesPipe/data/raw/NovaSeq.042622
+
+Finding .bz2 files with JG_CO_### pattern (excluding H-HiC)...
+Found 210 .bz2 files to convert
+
+[1/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_099_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_099_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[2/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_099_A_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_099_A_I1198_L1_R1.fastq.gz
+  ✓ Success
+[3/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_232_B_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_232_B_I1198_L1_R2.fastq.gz
