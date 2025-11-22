@@ -20,7 +20,7 @@ for (my $i=0; $i<=99; $i++){
         }
 	# CHANGE head -n XXXXXX number to match total pairs
         `tail -n $start_rand $ARGV[0] | head -n 200000 > $id\_downsample_$start_rand.fasta`;
-        `cp ../../scripts/GRStransposome_config.yml $id\_$start_rand\_transposome.yml`;
+        `cp ../../../../scripts/GRStransposome_config.yml $id\_$start_rand\_transposome.yml`;
         my $sample_file = $id . "_downsample_$start_rand.fasta";
         my $filePath=$ARGV[0];
         $filePath =~ s/\//\\\//g;
@@ -35,5 +35,5 @@ for (my $i=0; $i<=99; $i++){
         chomp ($config);
         $config .= "/" . $id . "_" . $start_rand . "_transposome.yml";
         $config =~ s/\//\\\//g;
-        `sbatch ../../scripts/4_transposome.srun $id\_$start_rand\_transposome.yml`;
+        `sbatch ../../../../scripts/4_transposome.srun $id\_$start_rand\_transposome.yml`;
         }

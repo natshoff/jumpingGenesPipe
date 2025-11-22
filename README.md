@@ -146,8 +146,18 @@ my @files = grep { !/\.html$/ } </path/to/your/sequences/*$tarray[0]*R[1-2]*>;
 Submit jobs for all samples:
 
 ```bash
+# Run full pipeline (all steps)
 perl scripts/1_callTEpipe.pl samples/samples.txt scripts/2_TEpipe_fastp.sh
+
+# Or start from a specific step (e.g., Step 3)
+perl scripts/1_callTEpipe.pl samples/samples.txt scripts/2_TEpipe_fastp.sh 3
 ```
+
+**Available steps:**
+- Step 1: Quality Filtering & Adapter Trimming
+- Step 2: Contamination Removal  
+- Step 3: Read Interleaving
+- Step 4: Transposome Analysis
 
 This will submit one SLURM job per sample.
 
@@ -163,7 +173,21 @@ squeue -u $USER
 tail -f logs/slurm-<jobid>.out
 ```
 
-### 6. Summarize Results
+### 6. Restart Failed Jobs (Optional)
+
+If a job fails at a specific step, you can restart from that step without reprocessing earlier steps:
+
+```bash
+# Create a sample list with only the failed samples
+echo "JG_CO_011_C" > samples/failed_samples.txt
+
+# Restart from Step 3 (skipping Steps 1-2)
+perl scripts/1_callTEpipe.pl samples/failed_samples.txt scripts/2_TEpipe_fastp.sh 3
+```
+
+The pipeline will skip completed steps and use existing intermediate files.
+
+### 7. Summarize Results
 
 **[WIP]** - Results summarization documentation coming soon.
 
