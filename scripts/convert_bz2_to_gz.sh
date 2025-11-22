@@ -11,11 +11,11 @@
 # Script to convert .bz2 compressed FASTQ files to .gz and copy to scratch directory
 # NP Hofford - Nov 2024
 
-# Source directory (only NovaSeq.110321 has .bz2 files)
-SOURCE_DIR="/grps2/mrmckain/Sequence_Vault/NovaSeq.110321"
+# Source directory (only NovaSeq.042622 has .bz2 files)
+SOURCE_DIR="/grps2/mrmckain/Sequence_Vault/NovaSeq.042622"
 
 # Destination directory
-DEST_DIR="/scratch/nphofford/jumpingGenesPipe/data/raw/NovaSeq.110321"
+DEST_DIR="/scratch/nphofford/jumpingGenesPipe/data/raw/NovaSeq.042622"
 
 # Create logs directory if needed
 mkdir -p logs
@@ -28,12 +28,12 @@ echo ""
 # Create destination directory
 mkdir -p "$DEST_DIR"
 
-# Find all .bz2 files
-echo "Finding .bz2 files..."
-BZ2_FILES=$(find "$SOURCE_DIR" -maxdepth 1 \( -name "*.fastq.bz2" -o -name "*.fq.bz2" \))
+# Find all .bz2 files that match JG_CO_### pattern (digits only after JG_CO_)
+echo "Finding .bz2 files with JG_CO_### pattern..."
+BZ2_FILES=$(find "$SOURCE_DIR" -maxdepth 1 \( -name "*JG_CO_[0-9]*.fastq.bz2" -o -name "*JG_CO_[0-9]*.fq.bz2" \))
 
 if [ -z "$BZ2_FILES" ]; then
-    echo "No .bz2 files found!"
+    echo "No .bz2 files with JG_CO_### pattern found!"
     exit 1
 fi
 
