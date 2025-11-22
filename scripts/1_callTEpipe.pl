@@ -6,6 +6,11 @@
 # It is called using three inputs (1) the path to the raw sequence files (my @files = ), (2) a text file of the samples you want to run, and (3) the TE_pipeline.sh file
 # example call: perl samples.txt TE_pipeline.sh 
 
+# Raw sequence files are spread across three sequence runs:
+# /grps2/mrmckain/Sequence_Vault/NovaSeq.022122/
+# /grps2/mrmckain/Sequence_Vault/NovaSeq.042622/
+# /grps2/mrmckain/Sequence_Vault/NovaSeq.110321/
+
 
 use strict;
 
