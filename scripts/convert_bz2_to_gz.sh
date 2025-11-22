@@ -4,7 +4,7 @@
 #SBATCH -p ultrahigh
 #SBATCH --qos mrmckain
 #SBATCH --mem=20G
-#SBATCH -t 4:00:00
+#SBATCH -t 10:00:00
 #SBATCH -o logs/convert_bz2_to_gz-%j.out
 #SBATCH -e logs/convert_bz2_to_gz-%j.err
 
