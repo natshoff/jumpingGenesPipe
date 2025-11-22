@@ -3,6 +3,8 @@
 #SBATCH -p ultrahigh
 #SBATCH --qos mrmckain
 #SBATCH --mem=100G
+#SBATCH -o logs/slurm-%j.out
+#SBATCH -e logs/slurm-%j.err
 
 # NP Hofford Feb 10 2024
 
@@ -12,6 +14,9 @@
 
 # This script is called from the 1_callTEpipe.pl script in the same directory.
 
+
+# Create logs directory if it doesn't exist
+mkdir -p logs
 
 # Make overarching directory for sample
 # Create data directory if it doesn't exist
