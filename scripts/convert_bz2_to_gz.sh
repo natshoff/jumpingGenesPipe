@@ -29,11 +29,12 @@ echo ""
 mkdir -p "$DEST_DIR"
 
 # Find all .bz2 files that match JG_CO_### pattern (digits only after JG_CO_)
-echo "Finding .bz2 files with JG_CO_### pattern..."
-BZ2_FILES=$(find "$SOURCE_DIR" -maxdepth 1 \( -name "*JG_CO_[0-9]*.fastq.bz2" -o -name "*JG_CO_[0-9]*.fq.bz2" \))
+# Exclude files with H-HiC in the name
+echo "Finding .bz2 files with JG_CO_### pattern (excluding H-HiC)..."
+BZ2_FILES=$(find "$SOURCE_DIR" -maxdepth 1 \( -name "*JG_CO_[0-9]*.fastq.bz2" -o -name "*JG_CO_[0-9]*.fq.bz2" \) | grep -v "H-HiC")
 
 if [ -z "$BZ2_FILES" ]; then
-    echo "No .bz2 files with JG_CO_### pattern found!"
+    echo "No .bz2 files with JG_CO_### pattern found (after filtering)!"
     exit 1
 fi
 
