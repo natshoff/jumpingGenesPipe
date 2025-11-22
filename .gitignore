@@ -1,2 +1,5 @@
 # Data directories
 data/
+
+# Temporary slurm outs
+*slurm-*
