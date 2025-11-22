@@ -14,8 +14,10 @@
 
 
 # Make overarching directory for sample
-mkdir $3
-cd $3
+# Create data directory if it doesn't exist
+mkdir -p data/processed/
+mkdir -p data/processed/$3
+cd data/processed/$3
 
 
 ##########
