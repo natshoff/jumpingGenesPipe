@@ -20,7 +20,7 @@ while(<$file>){
 	chomp;
 	my @tarray=split/\s+/;
 	# CHNAGE YOUR SEQUENCE PATH HERE
-	my @files = </scratch/nphofford/Sorghum_halepense_seq/*$tarray[0]*R[1-2].fq*>;
+	my @files = grep { !/\.html$/ } </scratch/nphofford/Sorghum_halepense_seq/*$tarray[0]*R[1-2].fq*>;
         print "$tarray[0]\n";
 	my $file1;
 	my $file2;

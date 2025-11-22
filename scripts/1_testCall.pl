@@ -19,7 +19,7 @@ while(<$file>){
 	chomp;
 	my @tarray=split/\s+/;
 	# CHNAGE YOUR SEQUENCE PATH HERE
-	my @files = </grps2/mrmckain/Sequence_Vault/NovaSeq.022122/*$tarray[0]*R[1-2]*>;
+	my @files = grep { !/\.html$/ } </grps2/mrmckain/Sequence_Vault/NovaSeq.022122/*$tarray[0]*R[1-2]*>;
         print "$tarray[0]\n";
 	my $file1;
 	my $file2;
