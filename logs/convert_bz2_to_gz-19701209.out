@@ -30,3 +30,179 @@ Found 210 .bz2 files to convert
 [12/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_I_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_I_I1198_L1_R2.fastq.gz
   ✓ Success
 [13/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_E_I1198_L1_R2.fastq.gz
+  ✓ Success
+[14/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_230_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_230_E_I1198_L1_R2.fastq.gz
+  ✓ Success
+[15/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_B_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_B_I1198_L1_R2.fastq.gz
+  ✓ Success
+[16/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_C_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_C_I1198_L1_R2.fastq.gz
+  ✓ Success
+[17/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_232_B_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_232_B_I1198_L1_R1.fastq.gz
+  ✓ Success
+[18/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_D_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_D_I1198_L1_R1.fastq.gz
+  ✓ Success
+[19/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_D1_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_D1_I1198_L1_R2.fastq.gz
+  ✓ Success
+[20/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_B_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_B_I1198_L1_R2.fastq.gz
+  ✓ Success
+[21/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_126_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_126_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[22/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_188_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_188_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[23/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_131_B_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_131_B_I1198_L1_R1.fastq.gz
+  ✓ Success
+[24/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[25/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_C_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_C_I1198_L1_R2.fastq.gz
+  ✓ Success
+[26/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_232_A_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_232_A_I1198_L1_R1.fastq.gz
+  ✓ Success
+[27/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_C_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_C_I1198_L1_R2.fastq.gz
+  ✓ Success
+[28/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[29/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_F_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_F_I1198_L1_R2.fastq.gz
+  ✓ Success
+[30/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_E_I1198_L1_R1.fastq.gz
+  ✓ Success
+[31/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_223_F_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_223_F_I1198_L1_R2.fastq.gz
+  ✓ Success
+[32/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_220_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_220_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[33/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_232_C_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_232_C_I1198_L1_R1.fastq.gz
+  ✓ Success
+[34/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_E_I1198_L1_R1.fastq.gz
+  ✓ Success
+[35/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_B_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_B_I1198_L1_R1.fastq.gz
+  ✓ Success
+[36/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_E_I1198_L1_R2.fastq.gz
+  ✓ Success
+[37/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_B_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_B_I1198_L1_R1.fastq.gz
+  ✓ Success
+[38/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_C_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_C_I1198_L1_R2.fastq.gz
+  ✓ Success
+[39/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_G_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_G_I1198_L1_R2.fastq.gz
+  ✓ Success
+[40/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_230_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_230_E_I1198_L1_R1.fastq.gz
+  ✓ Success
+[41/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_D_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_D_I1198_L1_R1.fastq.gz
+  ✓ Success
+[42/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_C_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_C_I1198_L1_R1.fastq.gz
+  ✓ Success
+[43/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_206_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_206_E_I1198_L1_R2.fastq.gz
+  ✓ Success
+[44/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_I_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_I_I1198_L1_R1.fastq.gz
+  ✓ Success
+[45/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_206_C_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_206_C_I1198_L1_R2.fastq.gz
+  ✓ Success
+[46/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_D1_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_D1_I1198_L1_R1.fastq.gz
+  ✓ Success
+[47/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_E_I1198_L1_R1.fastq.gz
+  ✓ Success
+[48/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_223_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_223_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[49/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_B_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_B_I1198_L1_R2.fastq.gz
+  ✓ Success
+[50/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[51/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[52/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_126_D_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_126_D_I1198_L1_R1.fastq.gz
+  ✓ Success
+[53/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_085_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_085_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[54/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_188_D_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_188_D_I1198_L1_R1.fastq.gz
+  ✓ Success
+[55/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_A_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_A_I1198_L1_R1.fastq.gz
+  ✓ Success
+[56/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[57/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_C_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_C_I1198_L1_R1.fastq.gz
+  ✓ Success
+[58/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_093_C_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_093_C_I1198_L1_R2.fastq.gz
+  ✓ Success
+[59/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_131_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_131_E_I1198_L1_R2.fastq.gz
+  ✓ Success
+[60/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_220_D_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_220_D_I1198_L1_R1.fastq.gz
+  ✓ Success
+[61/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_F_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_F_I1198_L1_R1.fastq.gz
+  ✓ Success
+[62/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_085_A_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_085_A_I1198_L1_R1.fastq.gz
+  ✓ Success
+[63/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_206_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_206_E_I1198_L1_R1.fastq.gz
+  ✓ Success
+[64/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_E_I1198_L1_R2.fastq.gz
+  ✓ Success
+[65/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_C_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_C_I1198_L1_R1.fastq.gz
+  ✓ Success
+[66/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_G_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_G_I1198_L1_R2.fastq.gz
+  ✓ Success
+[67/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_204_B_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_204_B_I1198_L1_R2.fastq.gz
+  ✓ Success
+[68/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_223_F_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_223_F_I1198_L1_R1.fastq.gz
+  ✓ Success
+[69/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_H_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_H_I1198_L1_R2.fastq.gz
+  ✓ Success
+[70/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_206_C_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_206_C_I1198_L1_R1.fastq.gz
+  ✓ Success
+[71/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_E_I1198_L1_R1.fastq.gz
+  ✓ Success
+[72/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_B_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_B_I1198_L1_R2.fastq.gz
+  ✓ Success
+[73/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_C_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_C_I1198_L1_R1.fastq.gz
+  ✓ Success
+[74/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_G_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_G_I1198_L1_R1.fastq.gz
+  ✓ Success
+[75/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_220_C_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_220_C_I1198_L1_R2.fastq.gz
+  ✓ Success
+[76/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_A_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_A_I1198_L1_R1.fastq.gz
+  ✓ Success
+[77/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_122_B_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_122_B_I1198_L1_R2.fastq.gz
+  ✓ Success
+[78/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_F_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_224_F_I1198_L1_R2.fastq.gz
+  ✓ Success
+[79/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_B_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_B_I1198_L1_R2.fastq.gz
+  ✓ Success
+[80/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_A_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_080_A_I1198_L1_R1.fastq.gz
+  ✓ Success
+[81/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_A_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_A_I1198_L1_R1.fastq.gz
+  ✓ Success
+[82/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_B_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_128_B_I1198_L1_R1.fastq.gz
+  ✓ Success
+[83/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_230_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_230_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[84/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_215_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_215_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[85/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_204_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_204_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[86/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_B_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_B_I1198_L1_R1.fastq.gz
+  ✓ Success
+[87/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_093_C_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_093_C_I1198_L1_R1.fastq.gz
+  ✓ Success
+[88/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_246_C2_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_246_C2_I1198_L1_R2.fastq.gz
+  ✓ Success
+[89/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_098_E_I1198_L1_R1.fastq.gz
+  ✓ Success
+[90/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_223_D_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_223_D_I1198_L1_R1.fastq.gz
+  ✓ Success
+[91/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_081_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[92/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_204_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_204_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[93/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_077_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_077_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[94/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_204_B_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_204_B_I1198_L1_R1.fastq.gz
+  ✓ Success
+[95/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_131_A_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_131_A_I1198_L1_R2.fastq.gz
+  ✓ Success
+[96/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_150_D_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_150_D_I1198_L1_R2.fastq.gz
+  ✓ Success
+[97/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_G_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_194_G_I1198_L1_R1.fastq.gz
+  ✓ Success
+[98/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_H_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_H_I1198_L1_R1.fastq.gz
+  ✓ Success
+[99/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_B_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_218_B_I1198_L1_R1.fastq.gz
+  ✓ Success
+[100/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_131_E_I1198_L1_R1.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_131_E_I1198_L1_R1.fastq.gz
+  ✓ Success
+[101/210] Converting: JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_150_E_I1198_L1_R2.fastq.bz2 -> JTKI_NanoAmplified_NA-McKain_Pool_HA4-JG_CO_150_E_I1198_L1_R2.fastq.gz
