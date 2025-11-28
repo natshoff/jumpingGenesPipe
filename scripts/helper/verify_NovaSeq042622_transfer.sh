@@ -1,11 +1,4 @@
-#!/bin/bash
-#SBATCH -J verify_NovaSeq042622_transfer
-#SBATCH -n 1
-#SBATCH -p ultrahigh
-#SBATCH --qos mrmckain
-#SBATCH --mem=100G
-#SBATCH -o logs/slurm-%j.out
-#SBATCH -e logs/slurm-%j.err
+#!/bin/bashs
 
 
 # Script to verify NovaSeq.042622 samples exist in both vault and scratch locations
