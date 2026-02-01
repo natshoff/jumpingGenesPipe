@@ -16,3 +16,5 @@ echo ""
 echo "Total unique samples:"
 ls -1 "$SCRATCH_DIR"/*R1*.gz 2>/dev/null | wc -l
 
+
+
