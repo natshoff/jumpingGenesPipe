@@ -4,3 +4,6 @@ data/
 # Temporary slurm outs
 *slurm-*
 logs/
+
+# example data
+JG_CO_028_F*/
