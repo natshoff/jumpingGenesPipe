@@ -1,0 +1,18 @@
+## For more information about this file, see: 
+## https://github.com/sestaton/Transposome/wiki/Specifications-and-example-usage.
+blast_input:
+  - sequence_file:      FILE
+  - sequence_format:    fasta
+  - thread:             4
+  - output_directory:   OUTPUT
+clustering_options:
+  - in_memory:          1
+  - percent_identity:   90
+  - fraction_coverage:  0.55
+annotation_input:
+  - repeat_database:    /mrm/RepBase21.10.fasta/grasrep.ref
+annotation_options:
+  - cluster_size:       100
+output:
+  - run_log_file:       SAMPLE_log.txt
+  - cluster_log_file:   SAMPLE_cluster_report.txt

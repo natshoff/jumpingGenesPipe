@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH -n 4
+#SBATCH -p main
+#SBATCH --qos main
+#SBATCH -N 1
+#SBATCH --mem=30G
+
+# NP Hofford Feb 10 2024
+# This script calls transposome using the downsampled reads generated in 3_multiTransposome.pl
+
+
+export DK_ROOT=/share/apps/dotkit
+. /share/apps/dotkit/bash/.dk_init
+
+
+module load bio/transposome/0.12.1  
+
+transposome --config $1

@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH -n 4
+#SBATCH -p main
+#SBATCH -N 1
+#SBATCH --mem=25G
+
+module load python/python3/3.6.5shared
+
+perl ./scripts/pull_annotations_transposome_average.pl $1 $2 
