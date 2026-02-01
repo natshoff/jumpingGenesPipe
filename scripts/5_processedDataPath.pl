@@ -2,53 +2,65 @@
 # 5_processedDataPath.pl
 # Generates a list of valid sample directories for the annotation pipeline
 #
-# Usage: perl 5_processedDataPath.pl <base_directory> <output_prefix> <expected_count>
+# Usage: perl 5_processedDataPath.pl <output_name> <expected_count>
 #
 # Arguments:
-#   base_directory  - Path to processed data (e.g., /scratch/.../data/processed)
-#   output_prefix   - Prefix for output files
+#   output_name     - Name for output files (e.g., feb1samples)
 #   expected_count  - Expected number of transposome output files (e.g., 100)
 #
 # Example:
-#   perl 5_processedDataPath.pl /scratch/nphofford/jumpingGenesPipe/data/processed samples 100
+#   perl 5_processedDataPath.pl feb1samples 100
 #
-# Output files:
-#   <output_prefix>_valid.txt    - Samples with exactly <expected_count> annotation files
-#   <output_prefix>_excluded.txt - Samples with different counts (includes count in file)
+# Output files (in /scratch/nphofford/jumpingGenesPipe/samples/outputRuns/):
+#   <output_name>_valid.txt    - Samples with exactly <expected_count> annotation files
+#   <output_name>_excluded.txt - Samples with different counts (includes count in file)
 
 use strict;
 use File::Find;
 use File::Basename;
+use File::Path qw(make_path);
+
+# Hardcoded paths
+my $base_dir = "/scratch/nphofford/jumpingGenesPipe/data/processed";
+my $output_dir = "/scratch/nphofford/jumpingGenesPipe/samples/outputRuns";
 
 # Check arguments
-if (@ARGV < 3) {
-    print STDERR "Usage: perl 5_processedDataPath.pl <base_directory> <output_prefix> <expected_count>\n";
+if (@ARGV < 2) {
+    print STDERR "Usage: perl 5_processedDataPath.pl <output_name> <expected_count>\n";
     print STDERR "\n";
     print STDERR "Arguments:\n";
-    print STDERR "  base_directory  - Path to processed data directory\n";
-    print STDERR "  output_prefix   - Prefix for output files\n";
+    print STDERR "  output_name     - Name for output files (e.g., feb1samples)\n";
     print STDERR "  expected_count  - Expected number of transposome output files (e.g., 100)\n";
     print STDERR "\n";
     print STDERR "Example:\n";
-    print STDERR "  perl 5_processedDataPath.pl /scratch/nphofford/jumpingGenesPipe/data/processed samples 100\n";
+    print STDERR "  perl 5_processedDataPath.pl feb1samples 100\n";
     print STDERR "\n";
-    print STDERR "Output:\n";
-    print STDERR "  samples_valid.txt    - Paths with exactly 100 annotation files\n";
-    print STDERR "  samples_excluded.txt - Paths with different counts\n";
+    print STDERR "Hardcoded paths:\n";
+    print STDERR "  Input:  $base_dir\n";
+    print STDERR "  Output: $output_dir/\n";
+    print STDERR "\n";
+    print STDERR "Output files:\n";
+    print STDERR "  <output_name>_valid.txt    - Paths with exactly N annotation files\n";
+    print STDERR "  <output_name>_excluded.txt - Paths with different counts\n";
     exit 1;
 }
 
-my $base_dir = $ARGV[0];
-my $output_prefix = $ARGV[1];
-my $expected_count = $ARGV[2];
+my $output_name = $ARGV[0];
+my $expected_count = $ARGV[1];
 
 # Validate expected_count is a positive integer
 unless ($expected_count =~ /^\d+$/ && $expected_count > 0) {
     die "Error: expected_count must be a positive integer. You provided: $expected_count\n";
 }
 
-my $valid_file = "${output_prefix}_valid.txt";
-my $excluded_file = "${output_prefix}_excluded.txt";
+# Create output directory if needed
+unless (-d $output_dir) {
+    print "Creating output directory: $output_dir\n";
+    make_path($output_dir) or die "Error: Cannot create directory $output_dir: $!\n";
+}
+
+my $valid_file = "${output_dir}/${output_name}_valid.txt";
+my $excluded_file = "${output_dir}/${output_name}_excluded.txt";
 
 # Verify base directory exists
 unless (-d $base_dir) {
