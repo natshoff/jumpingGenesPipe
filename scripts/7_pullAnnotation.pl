@@ -3,16 +3,16 @@
 # Pulls and summarizes TE annotations from transposome output
 # Calculates average and standard deviation of GenomeFraction across runs
 #
-# Usage: perl 7_pullAnnotation.pl <data_path_file> <level> <output_prefix>
+# Usage: perl 7_pullAnnotation.pl <data_path_file> <level> <output_name>
 #
 # Arguments:
 #   data_path_file  - Text file containing paths to sample directories
 #   level           - Classification level: "order", "superfamily", or "family"
-#   output_prefix   - Prefix for output files
+#   output_name     - Name for output files (e.g., feb1superfamily)
 #
-# Output:
-#   <output_prefix>_<level>_TE_annotation_results_average.txt
-#   <output_prefix>_<level>_TE_annotation_results_stdev.txt
+# Output (in /scratch/nphofford/jumpingGenesPipe/data/output/):
+#   <output_name>_<level>_TE_annotation_results_average.txt
+#   <output_name>_<level>_TE_annotation_results_stdev.txt
 #
 # TSV Column Reference:
 #   0: ReadNum
@@ -22,24 +22,36 @@
 #   4: GenomeFraction
 
 use strict;
+use File::Path qw(make_path);
+
+# Hardcoded output directory
+my $output_dir = "/scratch/nphofford/jumpingGenesPipe/data/output";
 
 # Check arguments
 if (@ARGV < 3) {
-    print STDERR "Usage: perl 7_pullAnnotation.pl <data_path_file> <level> <output_prefix>\n";
+    print STDERR "Usage: perl 7_pullAnnotation.pl <data_path_file> <level> <output_name>\n";
     print STDERR "\n";
     print STDERR "Arguments:\n";
     print STDERR "  data_path_file  - Text file with sample directory paths\n";
     print STDERR "  level           - Classification level: order, superfamily, or family\n";
-    print STDERR "  output_prefix   - Prefix for output files\n";
+    print STDERR "  output_name     - Name for output files (e.g., feb1superfamily)\n";
     print STDERR "\n";
     print STDERR "Example:\n";
-    print STDERR "  perl 7_pullAnnotation.pl samples.txt superfamily sorghum_analysis\n";
+    print STDERR "  perl 7_pullAnnotation.pl samples.txt superfamily feb1superfamily\n";
+    print STDERR "\n";
+    print STDERR "Output location: $output_dir/\n";
     exit 1;
 }
 
 my $data_path_file = $ARGV[0];
 my $level = lc($ARGV[1]);  # Normalize to lowercase
-my $output_prefix = $ARGV[2];
+my $output_name = $ARGV[2];
+
+# Create output directory if needed
+unless (-d $output_dir) {
+    print "Creating output directory: $output_dir\n";
+    make_path($output_dir) or die "Error: Cannot create directory $output_dir: $!\n";
+}
 
 # Determine which column to use based on level
 my $level_column;
@@ -150,8 +162,8 @@ for my $dir_s (@dir) {
 }
 
 # Generate output file names
-my $avg_file = "${output_prefix}_${level}_TE_annotation_results_average.txt";
-my $stdev_file = "${output_prefix}_${level}_TE_annotation_results_stdev.txt";
+my $avg_file = "${output_dir}/${output_name}_${level}_TE_annotation_results_average.txt";
+my $stdev_file = "${output_dir}/${output_name}_${level}_TE_annotation_results_stdev.txt";
 
 print "\nWriting output files...\n";
 
