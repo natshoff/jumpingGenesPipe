@@ -1,0 +1,15 @@
+==========================================
+TE Annotation Summary Pipeline
+==========================================
+Data path file: /scratch/nphofford/jumpingGenesPipe/samples/outputRuns/feb1samples_valid.txt
+Classification level: superfamily
+Output prefix: feb1superfamily
+==========================================
+
+
+==========================================
+Pipeline complete!
+Output files:
+  feb1superfamily_superfamily_TE_annotation_results_average.txt
+  feb1superfamily_superfamily_TE_annotation_results_stdev.txt
+==========================================

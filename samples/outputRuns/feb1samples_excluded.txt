@@ -1,0 +1,35 @@
+# Samples excluded from analysis
+# Expected count: 100
+# Format: count<TAB>reason<TAB>path
+#
+200	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_011_C
+97	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_011_V
+95	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_028_E
+98	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_055_J
+97	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_077_D
+99	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_080_A
+94	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_080_E
+96	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_081_C
+98	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_081_E
+95	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_093_D
+99	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_095_C
+92	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_098_E
+92	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_099_A
+97	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_099_C
+99	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_108_C
+93	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_109_D
+95	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_111_D
+93	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_111_E
+67	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_113_A
+93	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_113_B
+99	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_113_C
+95	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_113_D
+98	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_118_D
+77	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_120_B
+98	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_128_A
+96	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_128_E
+99	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_132_H
+99	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_225_C
+99	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_225_E
+97	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_241_B
+200	wrong_count	/scratch/nphofford/jumpingGenesPipe/data/processed/JG_CO_245_C

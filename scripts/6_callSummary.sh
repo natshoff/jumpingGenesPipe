@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH -n 4
-#SBATCH -p main
+#SBATCH --qos mrmckain
+#SBATCH -p ultrahigh
 #SBATCH -N 1
 #SBATCH --mem=25G
 #SBATCH --job-name=TE_summary
