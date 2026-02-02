@@ -13,3 +13,4 @@ JG_CO_028_F*/
 ## Climate data pipeline
 # keep data directory
 !2_climateCode/data/
+.Rproj.user
