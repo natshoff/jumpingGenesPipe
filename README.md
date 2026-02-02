@@ -50,6 +50,23 @@ Processes each sample through four steps:
 - Clusters similar sequences
 - Annotates repeat families
 
+### Stage 5: Results Summary (`5_processedDataPath.pl`, `6_callSummary.sh`, `7_pullAnnotation.pl`)
+
+**Step 5 - Generate Sample List (`5_processedDataPath.pl`)**
+- Scans processed data directory for valid samples
+- Filters samples by expected number of transposome runs (e.g., 100)
+- Outputs valid samples and excluded samples lists
+
+**Step 6 - Call Summary (`6_callSummary.sh`)**
+- SBATCH wrapper script for HPC job submission
+- Calls the annotation pulling script
+
+**Step 7 - Pull Annotations (`7_pullAnnotation.pl`)**
+- Aggregates TE annotations across all bootstrap runs
+- Calculates average and standard deviation of GenomeFraction
+- Supports three classification levels: Order, Superfamily, Family
+- Outputs tab-separated results files
+
 ## Requirements
 
 ### Software Dependencies
@@ -85,26 +102,39 @@ Processes each sample through four steps:
 ```
 jumpingGenesPipe/
 ├── scripts/
-│   ├── 1_callTEpipe.pl              # Job submission script
-│   ├── 2_TEpipe_fastp.sh            # Main processing pipeline
+│   ├── 1_callTEpipe_mapped.pl        # Job submission script (with location map)
+│   ├── 2_TEpipe_fastp.sh             # Main processing pipeline
 │   ├── 3_multiTransposome.pl         # Transposome bootstrapping
 │   ├── 4_transposome.srun            # Transposome execution
+│   ├── 5_processedDataPath.pl        # Generate valid sample list
+│   ├── 6_callSummary.sh              # SBATCH wrapper for results summary
+│   ├── 7_pullAnnotation.pl           # Aggregate TE annotations
 │   ├── fastq2fasta_interleaved.pl    # Format conversion
 │   ├── GRStransposome_config.yml     # Transposome configuration
-│   ├── summary.srun                  # Results summarization
-│   └── WORKSpull_annotations_transposome_average.pl  # Parse results
+│   ├── helper/                       # Utility scripts
+│   └── deprecated/                   # Old/replaced scripts
 ├── samples/
-│   └── samples.txt                   # List of sample IDs
+│   ├── samples.txt                   # List of sample IDs
+│   └── outputRuns/                   # Sample validation output
+│       ├── *_valid.txt               # Samples with correct run count
+│       └── *_excluded.txt            # Samples with wrong run count
 ├── data/
 │   ├── raw/                          # Raw FASTQ files
-│   └── processed/                    # Processed sample directories
-│       └── SAMPLE_NAME/
-│           ├── 1_TrimmedReads/
-│           ├── 2_Bowtie/
-│           │   ├── 2a_Organellar/
-│           │   └── 2c_Bacterial/
-│           ├── 3_Interleaved/
-│           └── 4_Transposome/
+│   ├── processed/                    # Processed sample directories
+│   │   └── SAMPLE_NAME/
+│   │       ├── 1_TrimmedReads/
+│   │       ├── 2_Bowtie/
+│   │       │   ├── 2a_Organellar/
+│   │       │   └── 2c_Bacterial/
+│   │       ├── 3_Interleaved/
+│   │       └── 4_Transposome/
+│   └── output/                       # Final summarized results
+│       ├── *_order_TE_annotation_results_average.txt
+│       ├── *_order_TE_annotation_results_stdev.txt
+│       ├── *_superfamily_TE_annotation_results_average.txt
+│       ├── *_superfamily_TE_annotation_results_stdev.txt
+│       ├── *_family_TE_annotation_results_average.txt
+│       └── *_family_TE_annotation_results_stdev.txt
 └── logs/
     └── slurm-*.out                   # SLURM log files
 ```
@@ -213,7 +243,62 @@ The pipeline will skip completed steps and use existing intermediate files.
 
 ### 7. Summarize Results
 
-**[WIP]** - Results summarization documentation coming soon.
+After all Transposome jobs complete, aggregate the annotations:
+
+#### Step 5: Generate Valid Sample List
+
+Filter samples that have exactly 100 transposome output files (or your expected count):
+
+```bash
+perl scripts/5_processedDataPath.pl <output_name> <expected_count>
+
+# Example: Find all samples with exactly 100 runs
+perl scripts/5_processedDataPath.pl feb1samples 100
+```
+
+**Output** (in `/scratch/nphofford/jumpingGenesPipe/samples/outputRuns/`):
+- `feb1samples_valid.txt` - Samples with exactly 100 annotation files
+- `feb1samples_excluded.txt` - Samples with different counts (for debugging)
+
+#### Step 6: Run Annotation Summary
+
+Submit a batch job to aggregate TE annotations across all bootstrap runs:
+
+```bash
+sbatch scripts/6_callSummary.sh <valid_samples_file> <level> <output_name>
+
+# Example: Summarize at superfamily level
+sbatch scripts/6_callSummary.sh \
+  /scratch/nphofford/jumpingGenesPipe/samples/outputRuns/feb1samples_valid.txt \
+  superfamily \
+  feb1Superfamily
+```
+
+**Classification Levels:**
+
+| Level | Description | Example Values |
+|-------|-------------|----------------|
+| `order` | Highest level | ltr_retrotransposon, dna_transposon, satellite |
+| `superfamily` | Mid level | Gypsy, Copia, hAT |
+| `family` | Most specific | ATHILA-1_SBi-I, Copia-141_SB-I |
+
+**Output** (in `/scratch/nphofford/jumpingGenesPipe/data/output/`):
+- `<output_name>_<level>_TE_annotation_results_average.txt` - Mean GenomeFraction per TE type
+- `<output_name>_<level>_TE_annotation_results_stdev.txt` - Standard deviation across runs
+
+#### Run All Three Levels
+
+To get complete results at all classification levels:
+
+```bash
+# Generate sample list once
+perl scripts/5_processedDataPath.pl feb1samples 100
+
+# Submit all three levels
+sbatch scripts/6_callSummary.sh /scratch/nphofford/jumpingGenesPipe/samples/outputRuns/feb1samples_valid.txt order feb1Order
+sbatch scripts/6_callSummary.sh /scratch/nphofford/jumpingGenesPipe/samples/outputRuns/feb1samples_valid.txt superfamily feb1Superfamily
+sbatch scripts/6_callSummary.sh /scratch/nphofford/jumpingGenesPipe/samples/outputRuns/feb1samples_valid.txt family feb1Family
+```
 
 ## Configuration
 
@@ -248,12 +333,41 @@ See the [Transposome documentation](https://github.com/sestaton/Transposome/wiki
 
 ## Output Files
 
-**[WIP]** - Detailed output documentation coming soon.
+### Per-Sample Intermediate Files
 
-Key output locations:
-- Cleaned reads: `data/processed/SAMPLE/2_Bowtie/2c_Bacterial/`
-- Transposome results: `data/processed/SAMPLE/4_Transposome/*_transposome_*_out/`
-- TE annotations: `*_report_annotations_summary.tsv`
+| Location | Description |
+|----------|-------------|
+| `data/processed/SAMPLE/1_TrimmedReads/` | Quality-filtered FASTQ files |
+| `data/processed/SAMPLE/2_Bowtie/2a_Organellar/` | Reads after organellar removal |
+| `data/processed/SAMPLE/2_Bowtie/2c_Bacterial/` | Final cleaned reads (nuclear only) |
+| `data/processed/SAMPLE/3_Interleaved/` | Interleaved FASTA for Transposome |
+| `data/processed/SAMPLE/4_Transposome/` | 100 transposome output directories |
+
+### Per-Run Transposome Output
+
+Each bootstrap run creates a directory like `SAMPLE_transposome_JOBID_out/` containing:
+
+| File | Description |
+|------|-------------|
+| `*_cluster_report.txt` | Clustering results |
+| `*_cluster_report_annotations.tsv` | Annotated clusters |
+| `*_cluster_report_annotations_summary.tsv` | **Main output**: TE type, superfamily, family, GenomeFraction |
+| `*_cluster_report_singletons_annotations.tsv` | Singleton read annotations |
+
+### Final Summary Output
+
+Located in `data/output/`:
+
+| File | Description |
+|------|-------------|
+| `*_order_TE_annotation_results_average.txt` | Mean GenomeFraction by Order |
+| `*_order_TE_annotation_results_stdev.txt` | Std dev by Order |
+| `*_superfamily_TE_annotation_results_average.txt` | Mean GenomeFraction by Superfamily |
+| `*_superfamily_TE_annotation_results_stdev.txt` | Std dev by Superfamily |
+| `*_family_TE_annotation_results_average.txt` | Mean GenomeFraction by Family |
+| `*_family_TE_annotation_results_stdev.txt` | Std dev by Family |
+
+**Output Format**: Tab-separated with samples as rows and TE types as columns. Values represent the proportion of the genome (GenomeFraction) occupied by each TE type.
 
 ## Troubleshooting
 
