@@ -1,5 +1,7 @@
-# Data directories
-data/
+## Transposome pipeline
+# Data directories (ignore large raw/processed data, keep output results)
+data/*
+!data/output/
 
 # Temporary slurm outs
 *slurm-*
@@ -7,3 +9,7 @@ logs/
 
 # example data
 JG_CO_028_F*/
+
+## Climate data pipeline
+# keep data directory
+!2_climateCode/data/
